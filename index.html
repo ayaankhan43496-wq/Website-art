@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art by Shehnaz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎨 Art by Shehnaz</h1>
+    <input type="text" id="searchBar" placeholder="Search products...">
+    <nav>
+      <button class="category" data-category="all">All</button>
+      <button class="category" data-category="keychain">Keychains</button>
+      <button class="category" data-category="wall">Wall Hangings</button>
+      <button class="category" data-category="car">Car Hangings</button>
+    </nav>
+    <div id="cart-icon">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <main id="product-list">
+    <div class="product" data-category="keychain">
+      <img src="images/keychain1.jpg" alt="Resin Keychain">
+      <h3>Galaxy Resin Keychain</h3>
+      <p>₹250</p>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <div class="product" data-category="wall">
+      <img src="images/wall1.jpg" alt="Wall Hanging">
+      <h3>Floral Wall Hanging</h3>
+      <p>₹800</p>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <div class="product" data-category="car">
+      <img src="images/car1.jpg" alt="Car Hanging">
+      <h3>Butterfly Car Hanging</h3>
+      <p>₹350</p>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Art by Shehnaz | Follow us on 
+      <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">Instagram</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
